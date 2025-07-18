@@ -1,0 +1,343 @@
+body{
+    background-color: white /*#f2f5fc*/
+}
+
+/*H1*/
+.h1-title{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px 0 20px;
+    color: #1f2937; /*#21274a gris oscuro para contraste suave */
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.title-icon-wrap {
+    display: inline-flex;
+    align-items: center;
+}
+
+/*IMG-ICON-CV*/
+.img-icon-cv {
+    width: 100px;         /* Tamaño razonable para íconos junto a texto */
+    height: auto;        /* Mantiene la proporción de la imagen */
+    margin-left: 10px;  /* Espacio entre el ícono y el texto */
+    vertical-align: middle; /* Alineación vertical con el texto */
+}
+
+/*parrafo introductorio*/
+.intro-text {
+    font-size: 1.2rem;
+    color: #444;
+    text-align: center;
+    max-width: 700px;
+    margin: 10px auto 40px auto;
+    padding: 0 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+/*CARRUSEL*/
+.col-carousel{
+    margin: 2px;
+    padding: 10px;
+}
+
+.col-carousel img {
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    background-color: white;
+}
+
+.col-carousel:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.col-carousel .btn {
+    background-color: #3E57BF;
+    color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    visibility: hidden;
+}
+
+.col-carousel:hover .btn {
+    opacity: 1;
+    visibility: visible !important;
+}
+
+.col-carousel:active .btn {
+    background-color: #21306c;  /* Color mientras hace clic */
+    border-color: #21306c;
+    color: azure;
+}
+
+/*BUTTON CAROUSEL*/
+.btn.btn-carousel-control {
+    background-color: #3E57BF;
+    color: aliceblue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border-color: #3E57BF;
+}
+
+.btn.btn-carousel-control:active {
+    background-color: #21306c;
+    color: white;
+    border-color: #21306c;
+}
+
+
+
+/*CONTAINER FORMULARIO Y VISTA PREVIA*/
+
+.cont-form-prev {
+    border-top: 2px solid #bab9b9; /* Borde superior negro de 3px */
+    
+} 
+
+/*BUTTON FORMULARIO Y VISTA PREVIA*/
+
+.btn.btn-custom {
+    background-color: #3E57BF;
+    color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s ease;
+}
+
+.btn.btn-custom:hover {
+    background-color: #26377c;
+    color: azure;
+}
+
+.btn.btn-custom:active {
+    background-color: #21306c;  /* Color mientras hace clic */
+    border-color: #21306c;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.cont-button {
+    border-radius: 1px;
+}
+
+/*FORMULARIO*/
+
+/*INFORMACION BASICA*/
+
+/*LABEL DE TODOS EL FORM*/
+.form-label {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+/*parrafo de perfil profesional*/
+.form-p {
+    margin-left: 4px;
+    color: #6e6e6e;
+}
+
+/*TITULO DE FORMULARIO*/
+.title-form {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cont-form {
+    padding: 30px;
+    border: 1px solid #e3e2e2;
+    border-radius: 8px;
+    box-shadow: 0 -6px 10px rgba(0, 0, 0, 0.1), 
+                0 6px 10px rgba(0, 0, 0, 0.1); /*0 4px 8px rgba(0, 0, 0, 0.2);*/
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.experiencia-item {
+    border-bottom: #bab9b9 1px solid;
+}
+
+.educacion-item {
+    border-bottom: #bab9b9 1px solid;
+}
+
+.curso-item {
+    border-bottom: #bab9b9 1px solid;
+}
+
+.habilidad-item {
+    border-bottom: #bab9b9 1px solid;
+}
+
+.text-prev-form {
+    color: #bab9b9;
+    text-align: center;
+}
+
+/*IMAGEN DE PERFIL*/
+.profile-img-container {
+    width: 100px;
+    height: 100px;
+    border: 2px dashed #ccc;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-circle {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 50% !important;
+    object-fit: contain !important; /* Mantiene la proporción de la imagen */
+}
+
+/*BOTON AGREGAR*/
+.btn.btn-agregar {
+    margin-top: 15px;
+    border-radius: 8px;
+    border: solid #21306c 1px;
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #21306c;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn.btn-agregar:hover {
+    background-color: #222f6d; /* un tono más claro */
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* Active (cuando se hace click) */
+.btn.btn-agregar:active {
+    color: white;
+    background-color: #182553; /* más oscuro */
+    transform: scale(0.98);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/*BOTON ICONO TACHO BASURA*/
+.btn.btn-eliminar {
+    background: transparent;
+    border: none;
+    padding: 4px;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Estilo para el icono del tacho */
+.icon-trash {
+    color: #dc3545; /* rojo Bootstrap */
+    font-size: 2rem; /* más grande: 2rem = 32px */
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+/* Hover: más oscuro y efecto zoom */
+.btn-eliminar:hover .icon-trash {
+    color: #a71d2a; /* rojo más oscuro */
+    transform: scale(1.2);
+}
+
+/* Click: más pequeño (efecto "presionado") */
+.btn-eliminar:active .icon-trash {
+    transform: scale(0.95);
+    color: #7b131f;
+}
+
+/*VISTA PREVIA*/
+
+.vista-previa {
+    display: none;
+}
+
+.vista-previa-container {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.vista-previa-container.visible {
+    opacity: 1;
+}
+
+/*BOTON DESCARGAR PDF*/
+
+@keyframes breathing {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+}
+
+.btn.btnDescargar {
+    background-color: #23242a;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    animation: breathing 3s ease-in-out infinite;
+    padding: 12px 24px;
+    font-weight: 600;
+    border-radius: 8px;
+
+     /* Mejora visual del texto */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover: cambia color de fondo y eleva un poco */
+.btn.btnDescargar:hover {
+    background-color: #2e2f36;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Active: se hunde al hacer clic */
+.btn.btnDescargar:active {
+    background-color: #1a1b1f;
+    color: aliceblue;
+    transform: scale(0.97);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/*FOOTER*/
+
+.footer {
+    background-color: #232a47;
+    text-align: center;
+    padding: 30px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+    box-shadow: 0 -6px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.footer-contact p {
+    color: #ccc;
+}
+
+.carta-presentacion-cont {
+    width: 800px;
+    margin: 0 auto; /* esto lo centra horizontalmente */
+    height: auto;
+}
+
+/*CARTA PRESENTACION VISTA PREVIA*/
+.carta-texto {
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    white-space: pre-wrap;     /* respeta saltos de línea */
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.7;          /* espacio entre líneas */
+    color: #333333;
+    font-family: 'Georgia', serif; /* fuente con estilo formal */
+}

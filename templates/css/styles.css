@@ -1,0 +1,246 @@
+/*TEMPLATE 1*/
+
+.cont-template1 {
+    border: solid 1px #ccc;
+    width: 1100px;
+    height: 1400px;
+}
+
+.row-columns-template1{
+    height: 100%;
+}
+
+/*FONT TEMPLATE1*/
+.cont-template1 h1 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cont-template1 h2 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cont-template1 h3 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cont-template1 p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+/*COLUMNA IZQUIERDA*/
+.temp1-colum-left {
+    background-color: #275077;
+    color: white;
+    height: 100%;
+}
+
+.cont-left-temp1 {
+    height: 100%;
+}
+
+/*COLUMNA DERECHA*/
+.temp1-colum-right {
+    height: 100%;
+    background-color: #fefefe;
+}
+
+.cont-rigth-temp1 {
+    height: 100%;
+}
+
+.cont-rigth-temp1 h3 {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    text-align: justify;
+    color: #275077;
+}
+
+/*CONT INFO BASICA*/
+
+/*IMAGEN PERFIL*/
+.cont-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-img img{
+    width: 150px !important;
+    height: 150px !important; /* igual al ancho */
+    object-fit: cover !important; /* evita que la imagen se deforme */
+    border-radius: 50% !important; /* asegura el círculo si no usás Bootstrap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+.cont-info-basica p{
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*CONT INFO PERSONAL*/
+.cont-info-personal li{
+    text-align: justify;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.ul-info-per-template1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*CONT INFO CONTACTO*/
+.cont-contacto li{
+    text-align: justify;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+.ul-info-cont-template1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+/*CONT HABILIDADES*/
+.cont-habilidades li{
+    text-align: justify;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+/*CONT OTRO DATOS*/
+.cont-otros-datos p{
+    text-align: justify;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+.ul-exp-template1 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ul-habi-template1 li::marker {
+    color: #275077; /* Cambiá por el color que quieras */
+    font-size: 20px; /* ⚠️ No es 100% compatible */
+}
+
+.template1-strong-title {
+    color: #152635 !important;
+    text-transform: capitalize; /* convierte la primera letra de cada palabra en mayúscula */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);;
+}
+
+.template1-h5 {
+    color: #275077;
+    font-weight: bold;
+}
+
+.template1-div-exp span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #152635;
+}
+.template1-span-exp {
+    margin-right: 10px;
+}
+
+.template1-span-fecha-exp {
+    margin-left: 10px;
+}
+
+.template1-span-descrip {
+    font-weight: bold;
+    color: #152635;
+}
+
+.template1-span-cont-ref{
+    font-weight: bold;
+    color: #152635;
+}
+
+.template1-cont-ref{
+    text-transform: capitalize;
+}
+
+.template1-div-edu span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #152635;
+}
+
+.template1-span-nivel-edu {
+    color: #152635;
+    font-weight: lighter !important;
+    margin-left: 5px;
+}
+
+.template1-span-inst-edu {
+    margin-right: 10px;
+}
+
+.template1-span-fecha-edu {
+    margin-left: 10px;
+}
+
+.template1-div-cur span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #152635;
+}
+
+.template1-span-inst-cur {
+    margin-right: 10px;
+}
+
+.template1-span-fecha-cur {
+    margin-left: 10px;
+}
+
+.ul-exp-template1 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ul-habi-template1 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+}
+
+/*
+.template1-cont-experiencia {
+    margin-bottom: 25px;
+    border-bottom: solid 1px #ccc;
+}
+
+.template1-cont-educacion {
+    margin-bottom: 25px;
+    border-bottom: solid 1px #ccc;
+}
+
+.template1-cont-cursos {
+    margin-bottom: 25px;
+    border-bottom: solid 1px #ccc;
+}
+
+.template1-cont-habilidades{
+    margin-bottom: 25px;
+    border-bottom: solid 1px #ccc;
+}
+    */
