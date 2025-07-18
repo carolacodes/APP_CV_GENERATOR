@@ -38,7 +38,7 @@
 
 
 /*COLUMNA IZQUIERDA*/
-.temp1-colum-left {
+.template1-colum-left {
     background-color: #275077;
     color: white;
     height: 100%;
@@ -244,3 +244,239 @@
     border-bottom: solid 1px #ccc;
 }
     */
+
+/*TEMPLATE 2*/
+.cont-template2 {
+    border: solid 1px #ccc;
+    width: 1100px;
+    height: 1500px;
+}
+
+.row-columns-template2{
+    height: 100%;
+}
+
+/*COLUMNA IZQUIERDA*/
+.template2-colum-left {
+    padding: 0;
+    background-color: #8bef;
+    color: #19191b;
+    height: 100%;
+}
+
+/*CONTENEDORES COLUMNA IZQUIERDA*/
+.cont-info-basica-temp2 {
+    margin-bottom: 10px;
+}
+.cont-info-personal-temp2{
+    margin-bottom: 10px;
+}
+.cont-info-cont-temp2 {
+    margin-bottom: 10px;
+}
+.cont-otros-datos-temp2 {
+    margin-bottom: 10px;
+}
+/*INFORMACION BASICA*/
+
+.cont-img-temp2 {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(86, 163, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 180px;
+    border-bottom-right-radius: 180px;
+}
+
+.cont-img-temp2 img {
+    width: 200px !important;
+    height: 200px !important; /* igual al ancho */
+    object-fit: cover !important; /* evita que la imagen se deforme */
+    border-radius: 50% !important; /* asegura el círculo si no usás Bootstrap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+    border: solid 2px #fefefe;
+}
+
+.temp2-h1-nombre{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.temp2-h2-puesto{
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-weight: lighter;
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cont-info-basica-temp2 p {
+    margin-bottom: 0;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*INFORMACION PERSONAL*/
+
+.div-h3-temp2 {
+    background-color: rgb(86, 163, 241);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.div-h3-temp2 h3 {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.ul-info-per-template2 {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ul-info-per-template2 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*CONTACTO*/
+.ul-info-cont-template2 {
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ul-info-cont-template2 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+/*OTROS DATOS*/
+.cont-otros-datos-temp2 p{
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+
+/*COLUMNA DERECHA*/
+.temp2-colum-right {
+    background-color: #fefefe;
+    color: black;
+    border-top: solid 10px rgb(86, 163, 241);
+}
+
+.template2-h5 {
+    color: rgb(50, 49, 49);
+    font-weight: bold;
+}
+
+.template2-strong-title {
+    color:rgb(39, 103, 167) !important;
+    text-transform: capitalize; /* convierte la primera letra de cada palabra en mayúscula */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);;
+}
+
+.template2-div-exp span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: rgb(39, 103, 167);
+}
+.template2-span-exp {
+    margin-right: 10px;
+}
+
+.ul-exp-template2 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.template2-span-fecha-exp {
+    margin-left: 10px;
+}
+
+.template2-span-descrip {
+    font-weight: bold;
+    color: rgb(39, 103, 167);
+}
+
+.template2-span-cont-ref{
+    font-weight: bold;
+    color: rgb(39, 103, 167);
+}
+
+.template2-cont-ref{
+    text-transform: capitalize;
+}
+
+.template2-div-edu span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: rgb(39, 103, 167);
+}
+
+.template2-span-nivel-edu {
+    color: rgb(39, 103, 167);
+    font-weight: lighter !important;
+    margin-left: 5px;
+}
+
+.template2-span-inst-edu {
+    margin-right: 10px;
+}
+
+.template2-span-fecha-edu {
+    margin-left: 10px;
+}
+
+.template2-div-cur span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: rgb(39, 103, 167);
+}
+
+.template2-span-inst-cur {
+    margin-right: 10px;
+}
+
+.template2-span-fecha-cur {
+    margin-left: 10px;
+}
+
+.ul-exp-template2 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ul-habi-template2 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+}

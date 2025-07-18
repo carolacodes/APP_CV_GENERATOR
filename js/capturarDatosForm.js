@@ -330,12 +330,20 @@ document.addEventListener('DOMContentLoaded', () => {
         camposADepurar.forEach(campo => campo.innerHTML = "");
 
         // Limpiar info fija (nombre, contacto, etc.)
+        const infoFija = nuevoTemplate.querySelector(`[class*='${templateName}-colum-left']`);
+        if (infoFija) {
+            const computedStyle = window.getComputedStyle(infoFija);
+            const styleInfoFija = computedStyle.backgroundColor;
+            infoFija.innerHTML = "";
+            infoFija.style.backgroundColor = styleInfoFija; // Restaurar color original
+        }
+        /*
         const infoFija = nuevoTemplate.querySelector(".temp1-colum-left");
         if (infoFija) {
             infoFija.innerHTML = "";
             infoFija.style.backgroundColor = "#275077"; // Restaurar color de fondo
         } // Solo se deja en la 1ra página
-
+        */
         document.getElementById("vista-previa-content").appendChild(nuevoTemplate);
         console.log(`Nueva página agregada: ${nuevoIdBase}`);
         return nuevoIdBase;
