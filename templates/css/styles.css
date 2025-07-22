@@ -976,3 +976,252 @@
     line-height: 1.2;           /* Texto más "unido" verticalmente */
     letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
 }
+
+/*TEMPLATE 5*/
+.cont-template5 {
+    border: solid 1px #ccc;
+    width: 1100px;
+    height: 1500px;
+}
+
+/*CONTENDOR COLUMNAS*/
+.row-columns-template5 {
+    height: 100%;
+}
+
+/*COLUMNA IZQUIERDA*/
+.template5-colum-left {
+    padding: 0;
+    background-color: #F4F4F4;
+    color: black;
+    height: 100%;
+}
+
+/*CONTENEDORES COLUMNA IZQUIERDA*/
+.cont-info-basica-temp5 {
+    margin-bottom: 10px;
+}
+.cont-info-personal-temp5{
+    margin-bottom: 10px;
+}
+.cont-info-cont-temp5{
+    margin-bottom: 10px;
+}
+.cont-otros-datos-temp5 {
+    margin-bottom: 10px;
+}
+
+/*INFORMACION BASICA*/
+.cont-img-temp5 {
+    margin: 0 auto; /* <-- centra horizontalmente */
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(135deg, #2E5C7B 50%, #F4F4F4 50%) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.cont-img-temp5 img {
+    margin-bottom: 80px;
+    width: 150px !important;
+    height: 150px !important; /* igual al ancho */
+    object-fit: cover !important; /* evita que la imagen se deforme */
+    border-radius: 50% !important; /* asegura el círculo si no usás Bootstrap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+    border: solid 2px #fefefe;
+}
+
+.temp5-h1-nombre {
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #3A7CA5;
+    text-align: center; /* ✅ Centra el texto horizontalmente */
+}
+
+.temp5-h2-puesto {
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: #4D4D4D;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400; /* Regular */
+    font-size: 20px;
+    text-align: center; /* ✅ Centra el texto horizontalmente */
+    margin-bottom: 50px;
+}
+
+.temp5-div-h3 {
+    border-bottom: 1px solid #3A7CA5;
+}
+
+.temp5-div-h3 h3 {
+    margin-left: 30px ;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: #4D4D4D;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold; /* Medium */
+}
+
+.cont-info-basica-temp5 p {
+    margin-bottom: 0;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Lato', sans-serif; /* O 'Open Sans' */
+    font-weight: 400; /* Regular */
+    color: #4F4F4F;
+}
+
+/*Informacion personal*/
+.ul-info-per-template5 {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #4F4F4F;
+    margin-bottom: 10px;
+}
+
+.ul-info-per-template5 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*CONTACTO*/
+.ul-info-cont-template5 {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #4F4F4F;
+    margin-bottom: 10px;
+}
+
+.ul-info-cont-template5 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+.cont-otros-datos-temp5 p {
+    margin-bottom: 0;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Lato', sans-serif; /* O 'Open Sans' */
+    font-weight: 400; /* Regular */
+    color: #4F4F4F;
+}
+
+/*COLUMNA DERECHA*/
+.temp5-colum-right {
+    background-color: white;
+}
+
+
+.template5-h5 {
+    color: #3A7CA5;
+    font-weight: bold;
+}
+
+.template5-strong-title {
+    color:#3A7CA5 !important;
+    text-transform: capitalize; /* convierte la primera letra de cada palabra en mayúscula */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);;
+}
+
+.template5-div-exp span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #3A7CA5;
+}
+.template5-span-exp {
+    margin-right: 10px;
+}
+
+.ul-exp-template5 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.template5-span-fecha-exp {
+    margin-left: 10px;
+}
+
+.template5-span-descrip {
+    font-weight: bold;
+    color: #3A7CA5;
+}
+
+.template5-span-cont-ref{
+    font-weight: bold;
+    color: #3A7CA5;
+}
+
+.template5-cont-ref{
+    text-transform: capitalize;
+}
+
+.template5-div-edu span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #3A7CA5;
+}
+
+.template5-span-nivel-edu {
+    color: #3A7CA5;
+    font-weight: lighter !important;
+    margin-left: 5px;
+}
+
+.template5-span-inst-edu {
+    margin-right: 10px;
+}
+
+.template5-span-fecha-edu {
+    margin-left: 10px;
+}
+
+.template5-div-cur span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #3A7CA5;
+}
+
+.template5-span-inst-cur {
+    margin-right: 10px;
+}
+
+.template5-span-fecha-cur {
+    margin-left: 10px;
+}
+
+.ul-exp-template5 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ul-habi-template5 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+}
