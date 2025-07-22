@@ -502,7 +502,8 @@
 /*TEMPLATE 3*/
 
 .cont-template3 {
-    border: solid 1px #949896;
+    border-bottom: solid 10px #9DA48B;
+    border-top: solid 10px #9DA48B;
     width: 1100px;
     height: 1500px;
 }
@@ -637,7 +638,6 @@
 
 /*COLUMNA DERECHA*/
 .temp3-colum-right {
-    border-top: 10px solid #c5c8be;
     background-color: #F8F7F4;
 }
 
@@ -727,6 +727,252 @@
 }
 
 .ul-habi-template3 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+}
+
+/*TEMPLATE 4*/
+.cont-template4 {
+    border-bottom: solid 10px #2F4463;
+    border-top: solid 10px #2F4463;
+    width: 1100px;
+    height: 1400px;
+}
+
+.row-columns-template4 {
+    height: 100%;
+}
+
+.template4-colum-left {
+    padding: 0;
+    background-color: #F4F4F4;
+    color: black;
+    height: 100%;
+}
+
+/*CONTENEDORES COLUMNA IZQUIERDA*/
+.cont-info-basica-temp4 {
+    margin-bottom: 10px;
+}
+.cont-info-personal-temp4{
+    margin-bottom: 10px;
+}
+.cont-info-cont-temp4{
+    margin-bottom: 10px;
+}
+.cont-otros-datos-temp4 {
+    margin-bottom: 10px;
+}
+
+/*INFORMACION BASICA*/
+.cont-img-temp4 {
+    padding: 30px;
+    background-color: #2F4463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-img-temp4 img {
+    width: 200px !important;
+    height: 200px !important; /* igual al ancho */
+    object-fit: cover !important; /* evita que la imagen se deforme */
+    border-radius: 50% !important; /* asegura el círculo si no usás Bootstrap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+    border: solid 2px #fefefe;
+}
+
+.temp4-h1-nombre {
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'Playfair Display', serif;
+    font-weight: 700; 
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #2D2D2D;
+}
+
+.temp4-h2-puesto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #2D2D2D;
+}
+
+.temp4-div-h3{
+    border-bottom: 1px solid #949896;
+    margin-top: 10px;
+}
+.temp4-div-h3 h3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight:700;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #2D2D2D;
+}
+
+.cont-info-basica-temp4 p {
+    margin-bottom: 0;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Lato', sans-serif;
+    color: #4F4F4F;
+}
+
+/*INFORMACION PERSONAL*/
+.ul-info-per-template4 {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #4F4F4F;
+}
+
+.ul-info-per-template4 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*CONTACTO*/
+.ul-info-cont-template4 {
+    margin-top: 10px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+    color: #4F4F4F;
+}
+
+.ul-info-cont-template4 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+.cont-otros-datos-temp4 p {
+    margin-bottom: 0;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Lato', sans-serif;
+    color: #4F4F4F;
+}
+
+
+/*COLUMNA DERECHA*/
+.temp4-colum-right {
+    background-color: white;
+}
+
+.template4-h5 {
+    color: #2F4463;
+    font-weight: bold;
+}
+
+.template4-strong-title {
+    color:#2F4463 !important;
+    text-transform: capitalize; /* convierte la primera letra de cada palabra en mayúscula */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);;
+}
+
+.template4-div-exp span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #2F4463;
+}
+.template4-span-exp {
+    margin-right: 10px;
+}
+
+.ul-exp-template4 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.template4-span-fecha-exp {
+    margin-left: 10px;
+}
+
+.template4-span-descrip {
+    font-weight: bold;
+    color: #2F4463;
+}
+
+.template4-span-cont-ref{
+    font-weight: bold;
+    color: #2F4463;
+}
+
+.template4-cont-ref{
+    text-transform: capitalize;
+}
+
+.template4-div-edu span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #2F4463;
+}
+
+.template4-span-nivel-edu {
+    color: #2F4463;
+    font-weight: lighter !important;
+    margin-left: 5px;
+}
+
+.template4-span-inst-edu {
+    margin-right: 10px;
+}
+
+.template4-span-fecha-edu {
+    margin-left: 10px;
+}
+
+.template4-div-cur span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #2F4463;
+}
+
+.template4-span-inst-cur {
+    margin-right: 10px;
+}
+
+.template4-span-fecha-cur {
+    margin-left: 10px;
+}
+
+.ul-exp-template4 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ul-habi-template4 li {
     line-height: 1.2;           /* Texto más "unido" verticalmente */
     letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
 }
