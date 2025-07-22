@@ -1016,7 +1016,7 @@
     margin: 0 auto; /* <-- centra horizontalmente */
     width: 300px;
     height: 300px;
-    background: linear-gradient(135deg, #2E5C7B 50%, #F4F4F4 50%) !important;
+    background: linear-gradient(135deg, #3A7CA5 50%, #F4F4F4 50%) !important;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1222,6 +1222,263 @@
 }
 
 .ul-habi-template5 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+}
+
+/*TEMPLATE 6*/
+
+.cont-template6 {
+    width: 1100px;
+    height: 1500px;
+    border: solid 1px #ccc;
+}
+
+/*CONTENDOR COLUMNAS*/
+.row-columns-template6 {
+    height: 100%;
+}
+
+/*COLUMNA IZQUIERDA*/
+.template6-colum-left {
+    padding: 0;
+    background-color: #E3E3E4;
+    color: black;
+    height: 100%;
+}
+
+/*CONTENEDORES COLUMNA IZQUIERDA*/
+.cont-info-basica-temp6 {
+    margin-bottom: 10px;
+}
+.cont-info-personal-temp6{
+    margin-bottom: 10px;
+}
+.cont-info-cont-temp6{
+    margin-bottom: 10px;
+}
+.cont-otros-datos-temp6 {
+    margin-bottom: 10px;
+}
+
+/*INFORMACION BASICA*/
+
+.header-temp6 {
+    background-color: #2b3748;
+    height: 150px; /* Altura de la franja superior oscura */
+    position: relative;
+    margin-bottom: 100px
+}
+
+.cont-img-temp6 {
+    position: absolute;
+    top: 50%; /* Posiciona verticalmente desde el centro de .header-temp6 */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra la imagen */
+}
+
+.cont-img-temp6 img {
+    margin-top: 150px;
+    width: 150px !important;
+    height: 150px !important; /* igual al ancho */
+    object-fit: cover !important; /* evita que la imagen se deforme */
+    border-radius: 50% !important; /* asegura el círculo si no usás Bootstrap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+    border: solid 2px #fefefe;
+}
+
+.temp6-h1-nombre {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: #344b6a;
+}
+
+.temp6-h2-puesto {
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: #545454;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter; /* Regular */
+    font-size: 20px;
+    text-align: center; /* ✅ Centra el texto horizontalmente */
+    margin-bottom: 40px;
+}
+
+.temp6-div-h3 {
+    border-bottom: solid 1px #344b6a;
+}
+
+.temp6-div-h3 h3 {
+    margin-left: 20px ;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: #344b6a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; /* Medium */
+    font-size: 20px;
+}
+
+.cont-info-basica-temp6 p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Open Sans', sans-serif; /* O 'Open Sans' */
+    font-weight: 400; /* Regular */
+    color: #344b6a;
+}
+
+/*INFORMACION PERSONAL*/
+.ul-info-per-template6 {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #344b6a;
+    margin-bottom: 10px;
+}
+
+.ul-info-per-template6 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*CONTACTO*/
+.ul-info-cont-template6 {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #344b6a;
+    margin-bottom: 10px;
+}
+
+.ul-info-cont-template6 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*OTROS DATOS*/
+.cont-otros-datos-temp6 p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Open Sans', sans-serif; /* O 'Open Sans' */
+    font-weight: 400; /* Regular */
+    color: #344b6a;
+}
+
+/*COLUMNA DERECHA*/
+.temp6-colum-right {
+    background-color: white;
+    border-top: solid 10px #2b3748;
+}
+
+.template6-h5 {
+    color: #344b6a;
+    font-weight: bold;
+}
+
+.template6-strong-title {
+    color:#344b6a !important;
+    text-transform: capitalize; /* convierte la primera letra de cada palabra en mayúscula */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);;
+}
+
+.template6-div-exp span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #344b6a;
+}
+.template6-span-exp {
+    margin-right: 10px;
+}
+
+.ul-exp-template6 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.template6-span-fecha-exp {
+    margin-left: 10px;
+}
+
+.template6-span-descrip {
+    font-weight: bold;
+    color: #344b6a;
+}
+
+.template6-span-cont-ref{
+    font-weight: bold;
+    color: #344b6a;
+}
+
+.template6-cont-ref{
+    text-transform: capitalize;
+}
+
+.template6-div-edu span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #344b6a;
+}
+
+.template6-span-nivel-edu {
+    color: #344b6a;
+    font-weight: lighter !important;
+    margin-left: 5px;
+}
+
+.template6-span-inst-edu {
+    margin-right: 10px;
+}
+
+.template6-span-fecha-edu {
+    margin-left: 10px;
+}
+
+.template6-div-cur span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #344b6a;
+}
+
+.template6-span-inst-cur {
+    margin-right: 10px;
+}
+
+.template6-span-fecha-cur {
+    margin-left: 10px;
+}
+
+.ul-exp-template6 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ul-habi-template6 li {
     line-height: 1.2;           /* Texto más "unido" verticalmente */
     letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
 }
