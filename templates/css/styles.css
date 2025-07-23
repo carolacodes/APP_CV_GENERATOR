@@ -2015,3 +2015,273 @@
     line-height: 1.2;           /* Texto más "unido" verticalmente */
     letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
 }
+
+/*TEMPLATE 9*/
+.cont-template9 {
+    width: 1100px;
+    height: 1500px;
+    color: black;
+    border: solid 1px #ccc;
+    border-bottom: #07243d 10px solid;
+}
+
+/*CONTENDOR COLUMNAS*/
+.row-columns-template9 {
+    height: 100%;
+}
+
+/*COLUMNA IZQUIERDA*/
+.template9-colum-left {
+    padding: 0;
+    background-color: white;
+    color: black;
+    height: 100%;
+    border-left: 2px solid #0d4576;
+    border-right: 2px solid #0d4576;
+}
+
+/*CONTENEDORES COLUMNA IZQUIERDA*/
+.cont-info-basica-temp9 {
+    margin-bottom: 10px;
+}
+.cont-info-personal-temp9{
+    margin-bottom: 10px;
+}
+.cont-info-cont-temp9{
+    margin-bottom: 10px;
+}
+.cont-otros-datos-temp9 {
+    margin-bottom: 10px;
+}
+
+/*INFORMACION BASICA*/
+
+.header-temp9 {
+    background-color: 	#20496c;
+    height: 180px; /* Altura de la franja superior oscura */
+    position: relative;
+    margin-bottom: 120px
+}
+
+.cont-img-temp9 {
+    position: absolute;
+    top: 50%; /* Posiciona verticalmente desde el centro de .header-temp6 */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra la imagen */
+}
+
+.cont-img-temp9 img {
+    margin-top: 180px;
+    width: 200px !important;
+    height: 200px !important; /* igual al ancho */
+    object-fit: cover !important; /* evita que la imagen se deforme */
+    border-radius: 50% !important; /* asegura el círculo si no usás Bootstrap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+    border: solid 2px #fefefe;
+}
+
+.temp9-h1-nombre {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: #0d4576; 
+}
+
+.temp9-h2-puesto {
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter; /* Regular */
+    font-size: 20px;
+    text-align: center; /* ✅ Centra el texto horizontalmente */
+    margin-bottom: 40px;
+}
+
+.temp9-div-h3 {
+    border-top: solid 5px #0d4576;
+    border-bottom: solid 5px #0d4576;
+}
+
+.temp9-div-h3 h3 {
+    margin-top: 10px;
+    margin-left: 20px ;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: 	#20496c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; /* Medium */
+    font-size: 20px;
+}
+
+.cont-info-basica-temp9 p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Open Sans', sans-serif; /* O 'Open Sans' */
+    font-weight: 400; /* Regular */
+    color: 	#07243d;
+}
+
+/*INFORMACION PERSONAL*/
+.ul-info-per-template9 {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: 	#07243d;
+    margin-bottom: 10px;
+}
+
+.ul-info-per-template9 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*CONTACTO*/
+.ul-info-cont-template9 {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: #07243d;
+    margin-bottom: 10px;
+}
+
+.ul-info-cont-template9 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*OTROS DATOS*/
+.cont-otros-datos-temp9 p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Open Sans', sans-serif; /* O 'Open Sans' */
+    font-weight: 400; /* Regular */
+    color:	#07243d;
+}
+
+/*COLUMNA DERECHA*/
+.temp9-colum-right {
+    background-color: white;
+    border-top: solid 10px #07243d;
+}
+
+.template9-h5 {
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 999px; /* más circular */
+    background-color: #07243d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+    color: white;
+    font-weight: bold;
+}
+
+.template9-strong-title {
+    color: white !important;
+    text-transform: capitalize; /* convierte la primera letra de cada palabra en mayúscula */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);;
+}
+
+.template9-div-exp span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #20496c;;
+}
+.template9-span-exp {
+    margin-right: 10px;
+}
+
+.ul-exp-template9 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.template9-span-fecha-exp {
+    margin-left: 10px;
+}
+
+.template9-span-descrip {
+    font-weight: bold;
+    color: #20496c;
+}
+
+.template9-span-cont-ref{
+    font-weight: bold;
+    color: #20496c;
+}
+
+.template9-cont-ref{
+    text-transform: capitalize;
+}
+
+.template9-div-edu span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: 	#20496c;;
+}
+
+.template9-span-nivel-edu {
+    color: 	white;
+    font-weight: lighter !important;
+    margin-left: 5px;
+}
+
+.template9-span-inst-edu {
+    margin-right: 10px;
+}
+
+.template9-span-fecha-edu {
+    margin-left: 10px;
+}
+
+.template9-div-cur span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: 	#20496c;
+}
+
+.template9-span-inst-cur {
+    margin-right: 10px;
+}
+
+.template9-span-fecha-cur {
+    margin-left: 10px;
+}
+
+.ul-exp-template9 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ul-habi-template9 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+}
