@@ -2285,3 +2285,271 @@
     line-height: 1.2;           /* Texto más "unido" verticalmente */
     letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
 }
+
+/*TEMPLATE 10*/
+.cont-template10 {
+    width: 1100px;
+    height: 1500px;
+    color: black;
+    border: solid 1px #D99AA8;
+    border-bottom: #D99AA8 10px solid;
+}
+
+/*CONTENDOR COLUMNAS*/
+.row-columns-template10 {
+    height: 100%;
+}
+
+/*COLUMNA IZQUIERDA*/
+.template10-colum-left {
+    padding: 0;
+    background-color: white;
+    color: black;
+    height: 100%;
+}
+
+/*CONTENEDORES COLUMNA IZQUIERDA*/
+.cont-info-basica-temp10{
+    margin-bottom: 10px;
+}
+.cont-info-personal-temp10{
+    margin-bottom: 10px;
+}
+.cont-info-cont-temp10{
+    margin-bottom: 10px;
+}
+.cont-otros-datos-temp10 {
+    margin-bottom: 10px;
+}
+
+/*INFORMACION BASICA*/
+
+.header-temp10 {
+    background-color: 	#EAC7CE;
+    height: 180px; /* Altura de la franja superior oscura */
+    position: relative;
+    margin-bottom: 120px
+}
+
+.cont-img-temp10 {
+    position: absolute;
+    top: 50%; /* Posiciona verticalmente desde el centro de .header-temp6 */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra la imagen */
+}
+
+.cont-img-temp10 img {
+    margin-top: 180px;
+    width: 200px !important;
+    height: 200px !important; /* igual al ancho */
+    object-fit: cover !important; /* evita que la imagen se deforme */
+    border-radius: 50% !important; /* asegura el círculo si no usás Bootstrap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+    border: solid 5px #D99AA8;
+}
+
+.temp10-h1-nombre {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: black; 
+}
+
+.temp10-h2-puesto {
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter; /* Regular */
+    font-size: 20px;
+    text-align: center; /* ✅ Centra el texto horizontalmente */
+    margin-bottom: 40px;
+}
+
+.temp10-div-h3 {
+    background-color: #D99AA8;
+    padding: 5px
+}
+
+.temp10-div-h3 h3 {
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: 	black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold; /* Medium */
+    font-size: 20px;
+    text-align: center;
+}
+
+.cont-info-basica-temp10 p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Open Sans', sans-serif; /* O 'Open Sans' */
+    font-weight: 400; /* Regular */
+    color: 	black;
+}
+
+/*INFORMACION PERSONAL*/
+.ul-info-per-template10 {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: 	black;
+    margin-bottom: 10px;
+}
+
+.ul-info-per-template10 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*CONTACTO*/
+.ul-info-cont-template10 {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.ul-info-cont-template10 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*OTROS DATOS*/
+.cont-otros-datos-temp10 p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Open Sans', sans-serif; /* O 'Open Sans' */
+    font-weight: 400; /* Regular */
+    color:	black;
+}
+
+/*COLUMNA DERECHA*/
+.temp10-colum-right {
+    background-color: white;
+    border-top: solid 10px #D99AA8;
+}
+
+.template10-h5 {
+    display: inline-block;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 999px; /* más circular */
+    background-color: #D99AA8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+    color: black;
+    font-weight: bold;
+}
+
+.template10-strong-title {
+    color: black !important;
+    text-transform: capitalize; /* convierte la primera letra de cada palabra en mayúscula */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);;
+}
+
+.template10-div-exp span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #b8445d;
+}
+.template10-span-exp {
+    margin-right: 10px;
+}
+
+.ul-exp-template10 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.template10-span-fecha-exp {
+    margin-left: 10px;
+}
+
+.template10-span-descrip {
+    font-weight: bold;
+    color: #b8445d;
+}
+
+.template10-span-cont-ref{
+    font-weight: bold;
+    color: #b8445d;
+}
+
+.template10-cont-ref{
+    text-transform: capitalize;
+}
+
+.template10-div-edu span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: 	#b8445d;
+}
+
+.template10-span-nivel-edu {
+    color: 	white;
+    font-weight: lighter !important;
+    margin-left: 5px;
+}
+
+.template10-span-inst-edu {
+    margin-right: 10px;
+}
+
+.template10-span-fecha-edu {
+    margin-left: 10px;
+}
+
+.template10-div-cur span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: 	#b8445d;
+}
+
+.template10-span-inst-cur {
+    margin-right: 10px;
+}
+
+.template10-span-fecha-cur {
+    margin-left: 10px;
+}
+
+.ul-exp-template10 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ul-habi-template10 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+}
