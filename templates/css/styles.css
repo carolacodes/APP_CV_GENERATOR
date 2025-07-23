@@ -1482,3 +1482,270 @@
     line-height: 1.2;           /* Texto más "unido" verticalmente */
     letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
 }
+
+/*TEMPLATE 7*/
+.cont-template7 {
+    width: 1100px;
+    height: 1500px;
+}
+
+/*CONTENDOR COLUMNAS*/
+.row-columns-template7 {
+    height: 100%;
+}
+
+/*CONTENDOR COLUMNA IZQUIERDA*/
+.template7-colum-left {
+    padding: 0;
+    background-color: #ebece9;
+    color: #081b12;
+    height: 100%;
+}
+
+/*CONTENEDORES COLUMNA IZQUIERDA*/
+.cont-info-basica-temp7 {
+    margin-bottom: 10px;
+}
+.cont-info-personal-temp7{
+    margin-bottom: 10px;
+}
+.cont-info-cont-temp7{
+    margin-bottom: 10px;
+}
+.cont-otros-datos-temp7 {
+    margin-bottom: 10px;
+}
+
+/*INFORMACION BASICA*/
+
+.header-temp7 {
+    background-color: #081b12;
+    height: 150px; /* Altura de la franja superior oscura */
+    position: relative;
+    margin-bottom: 100px
+}
+
+.cont-img-temp7 {
+    position: absolute;
+    top: 50%; /* Posiciona verticalmente desde el centro de .header-temp6 */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centra la imagen */
+}
+
+.cont-img-temp7 img {
+    margin-top: 150px;
+    width: 150px !important;
+    height: 150px !important; /* igual al ancho */
+    object-fit: cover !important; /* evita que la imagen se deforme */
+    border-radius: 50% !important; /* asegura el círculo si no usás Bootstrap */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
+    border: solid 2px #fefefe;
+}
+
+.temp7-h1-nombre {
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #081b12;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.temp7-h2-puesto{
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    color: #081b12;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter; /* Regular */
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.temp7-div-h3 {
+    padding: 6px 20px; /* menos padding vertical */
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 999px; /* más circular */
+    color: #081b12; /* igual que en la imagen */
+    background-color: #b3bb95;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.temp7-div-h3 h3 {
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold; /* Medium */
+    font-size: 20px;
+}
+
+.cont-info-basica-temp7 p{
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Poppins', sans-serif; /* O 'Open Sans' */
+    font-weight: lighter; /* Regular */
+    color: #081b12;
+}
+
+/*INFORMACION PERSONAL*/
+.ul-info-per-template7 {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #081b12;
+    margin-bottom: 10px;
+}
+.ul-info-per-template7 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*CONTACTO*/
+.ul-info-cont-template7 {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #081b12;
+    margin-bottom: 10px;
+}
+
+.ul-info-cont-template7 li {
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+}
+
+/*OTROS DATOS*/
+.cont-otros-datos-temp7 p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word; /* mejora la distribución del espacio */
+    line-height: 1.4; /* un poco más de espacio entre líneas mejora la legibilidad */
+    font-family: 'Poppins', sans-serif; /* O 'Open Sans' */
+    font-weight: 400; /* Regular */
+    color: #081b12;
+}
+
+/*COLUMNA DERECHA*/
+.temp7-colum-right {
+    background-color: #081b12;
+    border-top: solid 10px #b3bb95;
+    color: #ebece9;
+}
+
+.template7-h5 {
+    display: inline-block;
+    color: #081b12;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 999px; /* más circular */
+    background-color: #b3bb95;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.template7-strong-title {
+    color:#081b12 !important;
+    text-transform: capitalize; /* convierte la primera letra de cada palabra en mayúscula */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);;
+}
+
+.template7-div-exp span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #ebece9;
+}
+.template7-span-exp {
+    margin-right: 10px;
+}
+
+.ul-exp-template7 {
+    list-style-type: none;
+    padding: 0;
+}
+
+.template7-span-fecha-exp {
+    margin-left: 10px;
+}
+
+.template7-span-descrip {
+    font-weight: bold;
+    color: #ebece9;
+}
+
+.template7-span-cont-ref{
+    font-weight: bold;
+    color: #ebece9;
+}
+
+.template7-cont-ref{
+    text-transform: capitalize;
+}
+
+.template7-div-edu span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #ebece9;
+}
+
+.template7-span-nivel-edu {
+    color: #ebece9;
+    font-weight: lighter !important;
+    margin-left: 5px;
+}
+
+.template7-span-inst-edu {
+    margin-right: 10px;
+}
+
+.template7-span-fecha-edu {
+    margin-left: 10px;
+}
+
+.template7-div-cur span{
+    font-style: italic;
+    text-transform: capitalize;
+    color: #ebece9;
+}
+
+.template7-span-inst-cur {
+    margin-right: 10px;
+}
+
+.template7-span-fecha-cur {
+    margin-left: 10px;
+}
+
+.ul-exp-template7 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.ul-habi-template7 li {
+    line-height: 1.2;           /* Texto más "unido" verticalmente */
+    letter-spacing: -0.5px;     /* (Opcional) Más compacto horizontalmente */
+}
